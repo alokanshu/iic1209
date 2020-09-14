@@ -1,0 +1,1941 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="author" content="MHRD">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--end of meat tags-->
+
+    <title> IIC | Dashboard</title>
+
+    <!--link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/NjbyeWjjFy97MXGZ40KrXu3v/recaptcha__en_gb.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/NjbyeWjjFy97MXGZ40KrXu3v/recaptcha__en_gb.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="wp_custom/css/progressBar.css">
+    <link rel="stylesheet" href="wp_custom/css/style.css" type="text/css">
+    <link rel="stylesheet" href="wp_custom/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="wp_custom/css/slick.css" type="text/css">
+    <link rel="stylesheet" href="wp_custom/css/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="wp_custom/css/fonts.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="wp_custom/css/reponsive.css">
+    <link rel="stylesheet" href="wp_custom/css/lightbox.min.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&amp;family=Oleo+Script:wght@700&amp;family=Roboto&amp;display=swap" rel="stylesheet">
+    <!--end of link-->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-168661400-3"></script>
+<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+ 
+
+  gtag('config', 'UA-168661400-3');
+
+</script>
+	
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+<style>
+button#responsive-menu-button,
+#responsive-menu-container {
+    display: none;
+    -webkit-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    #responsive-menu-container {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        z-index: 99998;
+        padding-bottom: 5px;
+        margin-bottom: -5px;
+        outline: 1px solid transparent;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    #responsive-menu-container .responsive-menu-search-box {
+        width: 100%;
+        padding: 0 2%;
+        border-radius: 2px;
+        height: 50px;
+        -webkit-appearance: none;
+    }
+
+    #responsive-menu-container.push-left,
+    #responsive-menu-container.slide-left {
+        transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+    }
+
+    .responsive-menu-open #responsive-menu-container.push-left,
+    .responsive-menu-open #responsive-menu-container.slide-left {
+        transform: translateX(0);
+        -ms-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+    }
+
+    #responsive-menu-container.push-top,
+    #responsive-menu-container.slide-top {
+        transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+    }
+
+    .responsive-menu-open #responsive-menu-container.push-top,
+    .responsive-menu-open #responsive-menu-container.slide-top {
+        transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+    }
+
+    #responsive-menu-container.push-right,
+    #responsive-menu-container.slide-right {
+        transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+    }
+
+    .responsive-menu-open #responsive-menu-container.push-right,
+    .responsive-menu-open #responsive-menu-container.slide-right {
+        transform: translateX(0);
+        -ms-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+    }
+
+    #responsive-menu-container.push-bottom,
+    #responsive-menu-container.slide-bottom {
+        transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+    }
+
+    .responsive-menu-open #responsive-menu-container.push-bottom,
+    .responsive-menu-open #responsive-menu-container.slide-bottom {
+        transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+    }
+
+    #responsive-menu-container,
+    #responsive-menu-container:before,
+    #responsive-menu-container:after,
+    #responsive-menu-container *,
+    #responsive-menu-container *:before,
+    #responsive-menu-container *:after {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+    }
+
+    #responsive-menu-container #responsive-menu-search-box,
+    #responsive-menu-container #responsive-menu-additional-content,
+    #responsive-menu-container #responsive-menu-title {
+        padding: 25px 5%;
+    }
+
+    #responsive-menu-container #responsive-menu,
+    #responsive-menu-container #responsive-menu ul {
+        width: 100%;
+    }
+    #responsive-menu-container #responsive-menu ul.responsive-menu-submenu {
+        display: none;
+    }
+
+    #responsive-menu-container #responsive-menu ul.responsive-menu-submenu.responsive-menu-submenu-open {
+         display: block;
+    }
+
+    #responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-1 a.responsive-menu-item-link {
+        padding-left: 10%;
+    }
+
+    #responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-2 a.responsive-menu-item-link {
+        padding-left: 15%;
+    }
+
+    #responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-3 a.responsive-menu-item-link {
+        padding-left: 20%;
+    }
+
+    #responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-4 a.responsive-menu-item-link {
+        padding-left: 25%;
+    }
+
+    #responsive-menu-container #responsive-menu ul.responsive-menu-submenu-depth-5 a.responsive-menu-item-link {
+        padding-left: 30%;
+    }
+
+    #responsive-menu-container li.responsive-menu-item {
+        width: 100%;
+        list-style: none;
+    }
+
+    #responsive-menu-container li.responsive-menu-item a {
+        width: 100%;
+        display: block;
+        text-decoration: none;
+        padding: 0 5%;
+        position: relative;
+    }
+
+    #responsive-menu-container li.responsive-menu-item a .fa {
+        margin-right: 15px;
+    }
+
+    #responsive-menu-container li.responsive-menu-item a .responsive-menu-subarrow {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #responsive-menu-container li.responsive-menu-item a .responsive-menu-subarrow  .fa {
+        margin-right: 0;
+    }
+
+    button#responsive-menu-button .responsive-menu-button-icon-inactive {
+        display: none;
+    }
+
+    button#responsive-menu-button {
+        z-index: 99999;
+        display: none;
+        overflow: hidden;
+        outline: none;
+    }
+
+    button#responsive-menu-button img {
+        max-width: 100%;
+    }
+
+    .responsive-menu-label {
+        display: inline-block;
+        font-weight: 600;
+        margin: 0 5px;
+        vertical-align: middle;
+    }
+
+    .responsive-menu-label .responsive-menu-button-text-open {
+        display: none;
+    }
+
+    .responsive-menu-accessible {
+        display: inline-block;
+    }
+
+    .responsive-menu-accessible .responsive-menu-box {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .responsive-menu-label.responsive-menu-label-top,
+    .responsive-menu-label.responsive-menu-label-bottom
+    {
+        display: block;
+        margin: 0 auto;
+    }
+
+    button#responsive-menu-button {
+        padding: 0 0;
+        display: inline-block;
+        cursor: pointer;
+        transition-property: opacity, filter;
+        transition-duration: 0.15s;
+        transition-timing-function: linear;
+        font: inherit;
+        color: inherit;
+        text-transform: none;
+        background-color: transparent;
+        border: 0;
+        margin: 0;
+        overflow: visible;
+    }
+
+    .responsive-menu-box {
+        width: 25px;
+        height: 19px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .responsive-menu-inner {
+        display: block;
+        top: 50%;
+        margin-top: -1.5px;
+    }
+
+    .responsive-menu-inner,
+    .responsive-menu-inner::before,
+    .responsive-menu-inner::after {
+         width: 25px;
+         height: 3px;
+         background-color: #ffffff;
+         border-radius: 4px;
+         position: absolute;
+         transition-property: transform;
+         transition-duration: 0.15s;
+         transition-timing-function: ease;
+    }
+
+    .responsive-menu-open .responsive-menu-inner,
+    .responsive-menu-open .responsive-menu-inner::before,
+    .responsive-menu-open .responsive-menu-inner::after {
+        background-color: #ffffff;
+    }
+
+    button#responsive-menu-button:hover .responsive-menu-inner,
+    button#responsive-menu-button:hover .responsive-menu-inner::before,
+    button#responsive-menu-button:hover .responsive-menu-inner::after,
+    button#responsive-menu-button:hover .responsive-menu-open .responsive-menu-inner,
+    button#responsive-menu-button:hover .responsive-menu-open .responsive-menu-inner::before,
+    button#responsive-menu-button:hover .responsive-menu-open .responsive-menu-inner::after,
+    button#responsive-menu-button:focus .responsive-menu-inner,
+    button#responsive-menu-button:focus .responsive-menu-inner::before,
+    button#responsive-menu-button:focus .responsive-menu-inner::after,
+    button#responsive-menu-button:focus .responsive-menu-open .responsive-menu-inner,
+    button#responsive-menu-button:focus .responsive-menu-open .responsive-menu-inner::before,
+    button#responsive-menu-button:focus .responsive-menu-open .responsive-menu-inner::after {
+        background-color: #ffffff;
+    }
+
+    .responsive-menu-inner::before,
+    .responsive-menu-inner::after {
+         content: "";
+         display: block;
+    }
+
+    .responsive-menu-inner::before {
+         top: -8px;
+    }
+
+    .responsive-menu-inner::after {
+         bottom: -8px;
+    }
+
+            .responsive-menu-boring .responsive-menu-inner,
+.responsive-menu-boring .responsive-menu-inner::before,
+.responsive-menu-boring .responsive-menu-inner::after {
+    transition-property: none;
+}
+
+.responsive-menu-boring.is-active .responsive-menu-inner {
+    transform: rotate(45deg);
+}
+
+.responsive-menu-boring.is-active .responsive-menu-inner::before {
+    top: 0;
+    opacity: 0;
+}
+
+.responsive-menu-boring.is-active .responsive-menu-inner::after {
+    bottom: 0;
+    transform: rotate(-90deg);
+}    
+    button#responsive-menu-button {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 52px;
+        left: 8%;
+                    background: #080808
+            }
+
+            .responsive-menu-open button#responsive-menu-button {
+            background: #030303
+        }
+    
+            .responsive-menu-open button#responsive-menu-button:hover,
+        .responsive-menu-open button#responsive-menu-button:focus,
+        button#responsive-menu-button:hover,
+        button#responsive-menu-button:focus {
+            background: #141010
+        }
+    
+    button#responsive-menu-button .responsive-menu-box {
+        color: #ffffff;
+    }
+
+    .responsive-menu-open button#responsive-menu-button .responsive-menu-box {
+        color: #ffffff;
+    }
+
+    .responsive-menu-label {
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 13px;
+            }
+
+    button#responsive-menu-button {
+        display: inline-block;
+        transition: transform 0.5s, background-color 0.5s;
+    }
+
+    
+    
+    #responsive-menu-container {
+        width: 75%;
+        left: 0;
+        transition: transform 0.5s;
+        text-align: left;
+                                            background: #212121;
+            }
+
+    #responsive-menu-container #responsive-menu-wrapper {
+        background: #212121;
+    }
+
+    #responsive-menu-container #responsive-menu-additional-content {
+        color: #ffffff;
+    }
+
+    #responsive-menu-container .responsive-menu-search-box {
+        background: #ffffff;
+        border: 2px solid #dadada;
+        color: #333333;
+    }
+
+    #responsive-menu-container .responsive-menu-search-box:-ms-input-placeholder {
+        color: #c7c7cd;
+    }
+
+    #responsive-menu-container .responsive-menu-search-box::-webkit-input-placeholder {
+        color: #c7c7cd;
+    }
+
+    #responsive-menu-container .responsive-menu-search-box:-moz-placeholder {
+        color: #c7c7cd;
+        opacity: 1;
+    }
+
+    #responsive-menu-container .responsive-menu-search-box::-moz-placeholder {
+        color: #c7c7cd;
+        opacity: 1;
+    }
+
+    #responsive-menu-container .responsive-menu-item-link,
+    #responsive-menu-container #responsive-menu-title,
+    #responsive-menu-container .responsive-menu-subarrow {
+        transition: background-color 0.5s, border-color 0.5s, color 0.5s;
+    }
+
+    #responsive-menu-container #responsive-menu-title {
+        background-color: #212121;
+        color: #ffffff;
+        font-size: 13px;
+        text-align: left;
+    }
+
+    #responsive-menu-container #responsive-menu-title a {
+        color: #ffffff;
+        font-size: 13px;
+        text-decoration: none;
+    }
+
+    #responsive-menu-container #responsive-menu-title a:hover {
+        color: #ffffff;
+    }
+
+    #responsive-menu-container #responsive-menu-title:hover {
+        background-color: #212121;
+        color: #ffffff;
+    }
+
+    #responsive-menu-container #responsive-menu-title:hover a {
+        color: #ffffff;
+    }
+
+    #responsive-menu-container #responsive-menu-title #responsive-menu-title-image {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #responsive-menu-container #responsive-menu-title #responsive-menu-title-image img {
+                        max-width: 100%;
+    }
+
+    #responsive-menu-container #responsive-menu > li.responsive-menu-item:first-child > a {
+        border-top: 1px solid #212121;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-item .responsive-menu-item-link {
+        font-size: 13px;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-item a {
+        line-height: 40px;
+        border-bottom: 1px solid #212121;
+        color: #ffffff;
+        background-color: #212121;
+                    height: 40px;
+            }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-item a:hover {
+        color: #ffffff;
+        background-color: #3f3f3f;
+        border-color: #212121;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-item a:hover .responsive-menu-subarrow {
+        color: #ffffff;
+        border-color: #3f3f3f;
+        background-color: #3f3f3f;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-item a:hover .responsive-menu-subarrow.responsive-menu-subarrow-active {
+        color: #ffffff;
+        border-color: #3f3f3f;
+        background-color: #3f3f3f;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-item a .responsive-menu-subarrow {
+        right: 0;
+        height: 39px;
+        line-height: 39px;
+        width: 40px;
+        color: #ffffff;
+        border-left: 1px solid #212121;
+        background-color: #212121;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-item a .responsive-menu-subarrow.responsive-menu-subarrow-active {
+        color: #ffffff;
+        border-color: #212121;
+        background-color: #212121;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-item a .responsive-menu-subarrow.responsive-menu-subarrow-active:hover {
+        color: #ffffff;
+        border-color: #3f3f3f;
+        background-color: #3f3f3f;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-item a .responsive-menu-subarrow:hover {
+        color: #ffffff;
+        border-color: #3f3f3f;
+        background-color: #3f3f3f;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-current-item > .responsive-menu-item-link {
+        background-color: #212121;
+        color: #ffffff;
+        border-color: #212121;
+    }
+
+    #responsive-menu-container #responsive-menu li.responsive-menu-current-item > .responsive-menu-item-link:hover {
+        background-color: #3f3f3f;
+        color: #ffffff;
+        border-color: #3f3f3f;
+    }
+
+            #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item .responsive-menu-item-link {
+                        font-size: 13px;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a {
+                            height: 40px;
+                        line-height: 40px;
+            border-bottom: 1px solid #212121;
+            color: #ffffff;
+            background-color: #212121;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a:hover {
+            color: #ffffff;
+            background-color: #3f3f3f;
+            border-color: #212121;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a:hover .responsive-menu-subarrow {
+            color: #ffffff;
+            border-color: #3f3f3f;
+            background-color: #3f3f3f;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a:hover .responsive-menu-subarrow.responsive-menu-subarrow-active {
+            color: #ffffff;
+            border-color: #3f3f3f;
+            background-color: #3f3f3f;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a .responsive-menu-subarrow {
+            right: 0;
+            height: 39px;
+            line-height: 39px;
+            width: 40px;
+            color: #ffffff;
+            border-left: 1px solid #212121;
+            background-color: #212121;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a .responsive-menu-subarrow.responsive-menu-subarrow-active {
+            color: #ffffff;
+            border-color: #212121;
+            background-color: #212121;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a .responsive-menu-subarrow.responsive-menu-subarrow-active:hover {
+            color: #ffffff;
+            border-color: #3f3f3f;
+            background-color: #3f3f3f;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-item a .responsive-menu-subarrow:hover {
+            color: #ffffff;
+            border-color: #3f3f3f;
+            background-color: #3f3f3f;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-current-item > .responsive-menu-item-link {
+            background-color: #212121;
+            color: #ffffff;
+            border-color: #212121;
+        }
+
+        #responsive-menu-container #responsive-menu ul.responsive-menu-submenu li.responsive-menu-current-item > .responsive-menu-item-link:hover {
+            background-color: #3f3f3f;
+            color: #ffffff;
+            border-color: #3f3f3f;
+        }
+    
+    
+            #menu-top-menu {
+            display: none !important;
+        }
+    }
+	.marqInstMIC {
+    font-family: calibri;
+    font-weight: bold;
+    height: 35px;
+    color: #e51b00;
+    margin-top: -7px;
+    padding: 5px 0 4px 0;
+    position: absolute;
+    top: 0;
+}
+	
+	
+	</style>
+	<script>
+	jQuery(document).ready(function($) {
+
+    var ResponsiveMenu = {
+        trigger: '#responsive-menu-button',
+        animationSpeed: 500,
+        breakpoint: 768,
+        pushButton: 'off',
+        animationType: 'slide',
+        animationSide: 'left',
+        pageWrapper: '',
+        isOpen: false,
+        triggerTypes: 'click',
+        activeClass: 'is-active',
+        container: '#responsive-menu-container',
+        openClass: 'responsive-menu-open',
+        accordion: 'off',
+        activeArrow: '▲',
+        inactiveArrow: '▼',
+        wrapper: '#responsive-menu-wrapper',
+        closeOnBodyClick: 'off',
+        closeOnLinkClick: 'off',
+        itemTriggerSubMenu: 'off',
+        linkElement: '.responsive-menu-item-link',
+        subMenuTransitionTime: 200,
+        openMenu: function() {
+            $(this.trigger).addClass(this.activeClass);
+            $('html').addClass(this.openClass);
+            $('.responsive-menu-button-icon-active').hide();
+            $('.responsive-menu-button-icon-inactive').show();
+            this.setButtonTextOpen();
+            this.setWrapperTranslate();
+            this.isOpen = true;
+        },
+        closeMenu: function() {
+            $(this.trigger).removeClass(this.activeClass);
+            $('html').removeClass(this.openClass);
+            $('.responsive-menu-button-icon-inactive').hide();
+            $('.responsive-menu-button-icon-active').show();
+            this.setButtonText();
+            this.clearWrapperTranslate();
+            this.isOpen = false;
+        },
+        setButtonText: function() {
+            if($('.responsive-menu-button-text-open').length > 0 && $('.responsive-menu-button-text').length > 0) {
+                $('.responsive-menu-button-text-open').hide();
+                $('.responsive-menu-button-text').show();
+            }
+        },
+        setButtonTextOpen: function() {
+            if($('.responsive-menu-button-text').length > 0 && $('.responsive-menu-button-text-open').length > 0) {
+                $('.responsive-menu-button-text').hide();
+                $('.responsive-menu-button-text-open').show();
+            }
+        },
+        triggerMenu: function() {
+            this.isOpen ? this.closeMenu() : this.openMenu();
+        },
+        triggerSubArrow: function(subarrow) {
+            var sub_menu = $(subarrow).parent().siblings('.responsive-menu-submenu');
+            var self = this;
+            if(this.accordion == 'on') {
+                /* Get Top Most Parent and the siblings */
+                var top_siblings = sub_menu.parents('.responsive-menu-item-has-children').last().siblings('.responsive-menu-item-has-children');
+                var first_siblings = sub_menu.parents('.responsive-menu-item-has-children').first().siblings('.responsive-menu-item-has-children');
+                /* Close up just the top level parents to key the rest as it was */
+                top_siblings.children('.responsive-menu-submenu').slideUp(self.subMenuTransitionTime, 'linear').removeClass('responsive-menu-submenu-open');
+                /* Set each parent arrow to inactive */
+                top_siblings.each(function() {
+                    $(this).find('.responsive-menu-subarrow').first().html(self.inactiveArrow);
+                    $(this).find('.responsive-menu-subarrow').first().removeClass('responsive-menu-subarrow-active');
+                });
+                /* Now Repeat for the current item siblings */
+                first_siblings.children('.responsive-menu-submenu').slideUp(self.subMenuTransitionTime, 'linear').removeClass('responsive-menu-submenu-open');
+                first_siblings.each(function() {
+                    $(this).find('.responsive-menu-subarrow').first().html(self.inactiveArrow);
+                    $(this).find('.responsive-menu-subarrow').first().removeClass('responsive-menu-subarrow-active');
+                });
+            }
+            if(sub_menu.hasClass('responsive-menu-submenu-open')) {
+                sub_menu.slideUp(self.subMenuTransitionTime, 'linear').removeClass('responsive-menu-submenu-open');
+                $(subarrow).html(this.inactiveArrow);
+                $(subarrow).removeClass('responsive-menu-subarrow-active');
+            } else {
+                sub_menu.slideDown(self.subMenuTransitionTime, 'linear').addClass('responsive-menu-submenu-open');
+                $(subarrow).html(this.activeArrow);
+                $(subarrow).addClass('responsive-menu-subarrow-active');
+            }
+        },
+        menuHeight: function() {
+            return $(this.container).height();
+        },
+        menuWidth: function() {
+            return $(this.container).width();
+        },
+        wrapperHeight: function() {
+            return $(this.wrapper).height();
+        },
+        setWrapperTranslate: function() {
+            switch(this.animationSide) {
+                case 'left':
+                    translate = 'translateX(' + this.menuWidth() + 'px)'; break;
+                case 'right':
+                    translate = 'translateX(-' + this.menuWidth() + 'px)'; break;
+                case 'top':
+                    translate = 'translateY(' + this.wrapperHeight() + 'px)'; break;
+                case 'bottom':
+                    translate = 'translateY(-' + this.menuHeight() + 'px)'; break;
+            }
+            if(this.animationType == 'push') {
+                $(this.pageWrapper).css({'transform':translate});
+                $('html, body').css('overflow-x', 'hidden');
+            }
+            if(this.pushButton == 'on') {
+                $('#responsive-menu-button').css({'transform':translate});
+            }
+        },
+        clearWrapperTranslate: function() {
+            var self = this;
+            if(this.animationType == 'push') {
+                $(this.pageWrapper).css({'transform':''});
+                setTimeout(function() {
+                    $('html, body').css('overflow-x', '');
+                }, self.animationSpeed);
+            }
+            if(this.pushButton == 'on') {
+                $('#responsive-menu-button').css({'transform':''});
+            }
+        },
+        init: function() {
+            var self = this;
+            $(this.trigger).on(this.triggerTypes, function(e){
+                e.stopPropagation();
+                self.triggerMenu();
+            });
+            $(this.trigger).mouseup(function(){
+                $(self.trigger).blur();
+            });
+            $('.responsive-menu-subarrow').on('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                self.triggerSubArrow(this);
+            });
+            $(window).resize(function() {
+                if($(window).width() > self.breakpoint) {
+                    if(self.isOpen){
+                        self.closeMenu();
+                    }
+                } else {
+                    if($('.responsive-menu-open').length>0){
+                        self.setWrapperTranslate();
+                    }
+                }
+            });
+            if(this.closeOnLinkClick == 'on') {
+                $(this.linkElement).on('click', function(e) {
+                    e.preventDefault();
+                    /* Fix for when close menu on parent clicks is on */
+                    if(self.itemTriggerSubMenu == 'on' && $(this).is('.responsive-menu-item-has-children > ' + self.linkElement)) {
+                        return;
+                    }
+                    old_href = $(this).attr('href');
+                    old_target = typeof $(this).attr('target') == 'undefined' ? '_self' : $(this).attr('target');
+                    if(self.isOpen) {
+                        if($(e.target).closest('.responsive-menu-subarrow').length) {
+                            return;
+                        }
+                        self.closeMenu();
+                        setTimeout(function() {
+                            window.open(old_href, old_target);
+                        }, self.animationSpeed);
+                    }
+                });
+            }
+            if(this.closeOnBodyClick == 'on') {
+                $(document).on('click', 'body', function(e) {
+                    if(self.isOpen) {
+                        if($(e.target).closest('#responsive-menu-container').length || $(e.target).closest('#responsive-menu-button').length) {
+                            return;
+                        }
+                    }
+                    self.closeMenu();
+                });
+            }
+            if(this.itemTriggerSubMenu == 'on') {
+                $('.responsive-menu-item-has-children > ' + this.linkElement).on('click', function(e) {
+                    e.preventDefault();
+                    self.triggerSubArrow($(this).children('.responsive-menu-subarrow').first());
+                });
+            }
+        }
+    };
+    ResponsiveMenu.init();
+});</script>
+<style>
+.btncolor {
+    padding: 10px 14px !important;
+    font-weight: 900 !important;
+	font-size: 12px !important;
+	background-color:#e51b00 !important;
+}
+
+</style>
+<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/loader.js"></script><link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/core/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/util/util.css"><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_default_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_graphics_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_ui_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_corechart_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_fw_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/third_party/dygraphs/dygraph-tickers-combined.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/third_party/webfontloader/webfont.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_bar_module.js"></script><link rel="stylesheet" type="text/css" href="https://apis.mapmyindia.com/map_v3/v1.3/mapmyindia_v2.1.css"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/loader.js"></script><link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/core/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/util/util.css"><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_default_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_graphics_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_ui_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_corechart_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_fw_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/third_party/dygraphs/dygraph-tickers-combined.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/third_party/webfontloader/webfont.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_bar_module.js"></script></head>
+
+<body>
+    <!--header--->
+    <div class="header">
+        <!-- <div class="top_header">
+           <div class="container">
+              <div class="row">
+                 <div class="col-md-7 d_none">
+                    <div class="p_there">
+                       <p>There are many variations of passages of Lorem Ipsum available</p>
+                    </div>
+                 </div>
+                 <div class="col-md-5">
+                    <ul class="infomaco">
+                       <li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 7890</li>
+                       <li><a href="Javascript:void(0)"><i class="fa fa-envelope-o" aria-hidden="true"></i> demo@gmail.com</a></li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </div> -->
+        <div class="header_bottom">
+           <div class="container">
+              <div class="row">
+                 <div class=" col-md-2 col-sm-3 col logo_section">
+                    <div class="full">
+                       <div class="center-desk">
+                          <div class="logo">
+                             <a href="index.html"><img src="wp_custom/wp_images/logo.png" alt="#" /></a>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-md-10 col-sm-12">
+                    <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbarsExample04">
+                          <ul class="navbar-nav mr-auto">
+                             <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                             </li>
+                             <li class="nav-item">
+                                <div class="dropdown">
+                                   <a class="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">About</a>
+     
+                                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                     <a class="dropdown-item" href="#">IIC 2020-21</a>
+                                     <a class="dropdown-item" href="#">IIC 2019-20</a>
+                                     <a class="dropdown-item" href="#">IIC 2018-19</a>
+                                   </div>
+                                 </div>
+                             </li>
+
+
+                             <!-- <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                             </li> -->
+                             <li class="nav-item">
+                                <a class="nav-link" href="#">Innovation Contest</a>
+                             </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#">Impact Series</a>
+                             </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#">Innovation Ambassador</a>
+                             </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#">Online Sessions</a>
+                             </li>
+                             <li class="nav-item">
+                                <div class="dropdown">
+                                   <a class="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Gallery Events</a>
+     
+                                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                     <a class="dropdown-item" href="#">Gallery Video</a>
+                                     <a class="dropdown-item" href="#">Gallery Photo</a>
+                                     <a class="dropdown-item" href="#">News & Events</a>
+                                   </div>
+                                 </div>
+                             </li>
+                              
+                             <!-- <button class="btn btn-primary read_more" data-animation="animated bounceInLeft">Login</button> -->
+                          </ul>
+                       </div>
+                    </nav>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    
+    <!-- header end -->
+ 
+	
+	<!-- <marquee class="marqInstMIC" scrolldelay="50" id="scroll_news" bgcolor="#fff"><div onmouseover="document.getElementById('scroll_news').stop();" onmouseout="document.getElementById('scroll_news').start();">MIC website will be down for maintenance purpose from 10:00 PM (6th June) to 6:00 AM (7th June) & again from 10:00 PM (7th June) to 6:00 AM (8th June). Accessing the website along with any kind of information submission will be available anytime other than these two specific time-slots.</a></div></marquee> --><section style=" margin-top:40px; margin-bottom:20px;">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="titleheadertop">
+				<h1 class="inner-theme-heading">IIC National Innovation Contest 2020
+				<a href="wp_custom/wp_images/POC_Contest_fund_release_and_guidelines.pdf" target="_blank" style="font-size:13px;margin-left: 15%;">
+				<u>Selected team of IIC POC Contest 2019</u>&nbsp;&nbsp;&nbsp;<img src="wp_custom/wp_images/shortlisted.gif" width="10%"></a>
+				</h1>
+            </div>
+			<div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+</section>
+<section id="content-wrapper-1">
+	<div class="container">
+	
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4 totalCount">
+					<div id="totalCount" style="width: 100%;margin-top:20%;">
+						<div class="col-md-12" style="margin-bottom:5%">
+							<div class="col-md-6">
+								<img src="wp_custom/online/Picture2.png" class="img-responsive" alt="">
+							</div>
+							<div class="col-md-6">
+								<p style="margin-top:25%;font-weight: 600;font-family: 'Conv_Segoe UI Regular',Sans-Serif;">Total No of Idea - <span style="color: #4B84C4; font-size:22px;font-weight: 600;font-family: 'Conv_Segoe UI Regular',Sans-Serif;">12682</span></p>
+							</div>
+						</div>
+						<div class="col-md-12" style="margin-bottom:5%">
+							
+							<div class="col-md-6">
+								<img src="wp_custom/online/Picture1.png" class="img-responsive" alt="">
+							</div>
+							<div class="col-md-6">
+								<p style="margin-top:25%;font-weight: 600;font-family: 'Conv_Segoe UI Regular',Sans-Serif;">Total No of POC - <span style="color: #F68833; font-size:22px;font-weight: 600;font-family: 'Conv_Segoe UI Regular',Sans-Serif;">7265</span></p>
+							</div>
+
+						</div>	
+						<div class="col-md-12" style="margin-bottom:5%">
+							
+							<div class="col-md-6">
+								<img src="wp_custom/online/Picture4.png" class="img-responsive" alt="">
+							</div>
+							<div class="col-md-6">
+								<p style="margin-top:25%;font-weight: 600;font-family: 'Conv_Segoe UI Regular',Sans-Serif;">Total No of Prototype - <span style="color: #FF9900; font-size:22px;font-weight: 600;font-family: 'Conv_Segoe UI Regular',Sans-Serif;">10006</span></p>
+							</div>
+
+						</div>	
+						<div class="clearfix"></div>
+
+					</div>
+				</div>
+				<div class="col-md-8 totalCount">
+					<div id="regionCount" style="width: 100%;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 710px; height: 500px;"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;" aria-label="A chart."><svg width="710" height="500" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_0"><clipPath id="_ABSTRACT_RENDERER_ID_1"><rect x="136" y="96" width="439" height="309"></rect></clipPath></defs><rect x="0" y="0" width="710" height="500" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="588" y="96" width="109" height="55" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="588" y="96" width="109" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="619" y="107.05" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#222222">Idea</text></g><rect x="588" y="96" width="26" height="13" stroke="none" stroke-width="0" fill="#3366cc"></rect></g><g><rect x="588" y="117" width="109" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="619" y="128.05" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#222222">PoC</text></g><rect x="588" y="117" width="26" height="13" stroke="none" stroke-width="0" fill="#dc3912"></rect></g><g><rect x="588" y="138" width="109" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="619" y="149.05" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#222222">Prototype</text></g><rect x="588" y="138" width="26" height="13" stroke="none" stroke-width="0" fill="#ff9900"></rect></g></g><g><rect x="136" y="96" width="439" height="309" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://mic.gov.in/innovationcontest-dashboard.php#_ABSTRACT_RENDERER_ID_1)"><g><rect x="136" y="404" width="439" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="136" y="342" width="439" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="136" y="281" width="439" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="136" y="219" width="439" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="136" y="158" width="439" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="136" y="96" width="439" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="136" y="373" width="439" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="136" y="312" width="439" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="136" y="250" width="439" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="136" y="188" width="439" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="136" y="127" width="439" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="147" y="366" width="11" height="38" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="202" y="350" width="10" height="54" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="256" y="355" width="11" height="49" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="311" y="366" width="11" height="38" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="366" y="325" width="11" height="79" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="421" y="305" width="10" height="99" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="475" y="99" width="11" height="305" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="530" y="300" width="11" height="104" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="159" y="389" width="10" height="15" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="213" y="366" width="11" height="38" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="268" y="366" width="11" height="38" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="323" y="380" width="10" height="24" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="378" y="364" width="10" height="40" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="432" y="352" width="11" height="52" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="487" y="247" width="11" height="157" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="542" y="331" width="10" height="73" stroke="none" stroke-width="0" fill="#dc3912"></rect><rect x="170" y="370" width="11" height="34" stroke="none" stroke-width="0" fill="#ff9900"></rect><rect x="225" y="331" width="11" height="73" stroke="none" stroke-width="0" fill="#ff9900"></rect><rect x="280" y="361" width="10" height="43" stroke="none" stroke-width="0" fill="#ff9900"></rect><rect x="334" y="369" width="11" height="35" stroke="none" stroke-width="0" fill="#ff9900"></rect><rect x="389" y="340" width="11" height="64" stroke="none" stroke-width="0" fill="#ff9900"></rect><rect x="444" y="314" width="11" height="90" stroke="none" stroke-width="0" fill="#ff9900"></rect><rect x="499" y="212" width="10" height="192" stroke="none" stroke-width="0" fill="#ff9900"></rect><rect x="553" y="328" width="11" height="76" stroke="none" stroke-width="0" fill="#ff9900"></rect></g><g><rect x="136" y="404" width="439" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g></g><g></g><g><g><text text-anchor="end" x="166.15" y="423.4404155872192" font-family="Arial" font-size="13" transform="rotate(-30 166.15 423.4404155872192)" stroke="none" stroke-width="0" fill="#222222">Central/CRO</text></g><g><text text-anchor="end" x="220.9" y="423.4404155872192" font-family="Arial" font-size="13" transform="rotate(-30 220.9 423.4404155872192)" stroke="none" stroke-width="0" fill="#222222">Eastern/ERO</text></g><g><text text-anchor="end" x="275.65" y="423.4404155872192" font-family="Arial" font-size="13" transform="rotate(-30 275.65 423.4404155872192)" stroke="none" stroke-width="0" fill="#222222">North-West/NWRO</text></g><g><text text-anchor="end" x="330.4" y="423.4404155872192" font-family="Arial" font-size="13" transform="rotate(-30 330.4 423.4404155872192)" stroke="none" stroke-width="0" fill="#222222">Northern/NRO</text></g><g><text text-anchor="end" x="385.15" y="423.4404155872192" font-family="Arial" font-size="13" transform="rotate(-30 385.15 423.4404155872192)" stroke="none" stroke-width="0" fill="#222222">South-Central/SCRO</text></g><g><text text-anchor="end" x="439.9" y="423.4404155872192" font-family="Arial" font-size="13" transform="rotate(-30 439.9 423.4404155872192)" stroke="none" stroke-width="0" fill="#222222">South-West/SWRO</text></g><g><text text-anchor="end" x="494.65" y="423.4404155872192" font-family="Arial" font-size="13" transform="rotate(-30 494.65 423.4404155872192)" stroke="none" stroke-width="0" fill="#222222">Southern/SRO</text></g><g><text text-anchor="end" x="549.4" y="423.4404155872192" font-family="Arial" font-size="13" transform="rotate(-30 549.4 423.4404155872192)" stroke="none" stroke-width="0" fill="#222222">Western/WRO</text></g><g><text text-anchor="end" x="123" y="409.05" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="123" y="347.45" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#444444">1,000</text></g><g><text text-anchor="end" x="123" y="285.85" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#444444">2,000</text></g><g><text text-anchor="end" x="123" y="224.25" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#444444">3,000</text></g><g><text text-anchor="end" x="123" y="162.65" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#444444">4,000</text></g><g><text text-anchor="end" x="123" y="101.05" font-family="Arial" font-size="13" stroke="none" stroke-width="0" fill="#444444">5,000</text></g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Region</th><th>Idea</th><th>PoC</th><th>Prototype</th></tr></thead><tbody><tr><td>Central/CRO</td><td>641</td><td>259</td><td>565</td></tr><tr><td>Eastern/ERO</td><td>892</td><td>636</td><td>1,207</td></tr><tr><td>North-West/NWRO</td><td>816</td><td>639</td><td>709</td></tr><tr><td>Northern/NRO</td><td>639</td><td>411</td><td>584</td></tr><tr><td>South-Central/SCRO</td><td>1,302</td><td>660</td><td>1,056</td></tr><tr><td>South-West/SWRO</td><td>1,625</td><td>861</td><td>1,481</td></tr><tr><td>Southern/SRO</td><td>4,966</td><td>2,572</td><td>3,128</td></tr><tr><td>Western/WRO</td><td>1,700</td><td>1,202</td><td>1,243</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 510px; left: 720px; white-space: nowrap; font-family: Arial; font-size: 13px;">Prototype</div><div></div></div></div>
+				</div>
+			</div>
+		</div>		
+		
+		<div class="row">
+		<div class="col-sm-12">
+				 <h2 style="color:#721978;font-weight:700; font-size:25px; margin-bottom:10px">Participation of Innovation Contest across India</h2>
+			</div>
+		</div>		
+		<div class="row">
+			<div class="col-md-12">
+				<div id="map" class="leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative;"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 17; transform: translate3d(356px, -837px, 0px) scale(4);"></div><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 19; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" role="presentation" src="https://mt5.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/42/29.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(432px, 255px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt0.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/42/30.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(432px, 511px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt4.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/41/29.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(176px, 255px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt0.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/43/29.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(688px, 255px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt5.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/41/30.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(176px, 511px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt1.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/43/30.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(688px, 511px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt4.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/42/28.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(432px, -1px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt1.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/42/31.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(432px, 767px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt3.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/41/28.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(176px, -1px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt5.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/43/28.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(688px, -1px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt0.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/41/31.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(176px, 767px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt2.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/43/31.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(688px, 767px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt3.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/40/29.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-80px, 255px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt1.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/44/29.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(944px, 255px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt4.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/40/30.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-80px, 511px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt2.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/44/30.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(944px, 511px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt2.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/40/28.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-80px, -1px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt0.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/44/28.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(944px, -1px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt5.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/40/31.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-80px, 767px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://mt3.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/retina_map/6/44/31.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(944px, 767px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"></div><div class="leaflet-pane leaflet-marker-pane"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1501px, 289px, 0px); z-index: 289;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1501px, 289px, 0px); z-index: 289;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(2102px, -213px, 0px); z-index: -213;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(2102px, -213px, 0px); z-index: -213;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1366px, -448px, 0px); z-index: -448;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1598px, 32px, 0px); z-index: 32;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1381px, -342px, 0px); z-index: -342;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1245px, 318px, 0px); z-index: 318;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1112px, -17px, 0px); z-index: -17;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1335px, -360px, 0px); z-index: -360;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1384px, -468px, 0px); z-index: -468;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1357px, -612px, 0px); z-index: -612;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1753px, -83px, 0px); z-index: -83;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1318px, 317px, 0px); z-index: 317;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1343px, 526px, 0px); z-index: 526;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1452px, -52px, 0px); z-index: -52;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1318px, 106px, 0px); z-index: 106;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1318px, 106px, 0px); z-index: 106;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1745px, 47px, 0px); z-index: 47;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1504px, 476px, 0px); z-index: 476;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1301px, -470px, 0px); z-index: -470;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1301px, -470px, 0px); z-index: -470;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1301px, -470px, 0px); z-index: -470;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1452px, 513px, 0px); z-index: 513;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1468px, 185px, 0px); z-index: 185;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1468px, 185px, 0px); z-index: 185;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1556px, -246px, 0px); z-index: -246;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1556px, -246px, 0px); z-index: -246;"><img src="https://maps.mapmyindia.com/images/3.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; transform: translate3d(1870px, -52px, 0px); z-index: -52;"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(10875.2px, 7618.8px, 0px) scale(32);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"></div><div class="leaflet-top leaflet-right"><div class="search_dv leaflet-control"><div class="srch_dv" id="srch_dv0"><table><tbody><tr><td class="m_dvs" id="m_dv0" style="display:none"><input type="text" class="m_aus" id="m_auto0" autocomplete="off" placeholder="Search places or eLoc.." onkeyup="MapmyIndia.auto('map_o[0]',0,'map','','','','')" onclick="document.getElementById('m_result0').style.display='inline';" autofocus=""><input type="button" class="m_clss" id="m_cls0" value="X" onclick="var ma=document.getElementById('m_auto0');if(!ma.value){document.getElementById('m_dv0').style.display='none';return false}ma.value='';ma.focus(); if(MapmyIndia.m_marker) map_o[0].removeLayer(MapmyIndia.m_marker);document.getElementById('m_result0').innerHTML='';document.getElementById('bt_srch0').src='https://maps.mapmyindia.com/images/srarch1.png';"><div class="m_results" id="m_result0"></div></td><td title="Search to re center map" width="20px" class="ms_icon" valign="middle" onclick="MapmyIndia.auto('map_o[0]',0,'map','','','','')"><img height="20" id="bt_srch0" src="https://maps.mapmyindia.com/images/srarch1.png"></td><td style="width:25px;border-left:1px solid #f9efef"><div id="flsc_dv"><img onclick="MapmyIndia.fullscrn('map')" style="cursor:pointer;background:#fff;width:25px;padding-left: 6px;;border-radius:2px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MDM3RkYwODk0OUZFMTFFOThFQTVFRkM0MjZEQUIwNkUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MDM3RkYwODg0OUZFMTFFOThFQTVFRkM0MjZEQUIwNkUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkMzQjNCM0U0MEJBMTFFOTkzQkFCMzFGQUQyQzZGNDMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkMzQjNCM0Y0MEJBMTFFOTkzQkFCMzFGQUQyQzZGNDMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6RDpHdAAADjklEQVR42uycv2sUQRTH9zYpTDRRG3O2V+Ui6IHYChsQ1EIb448unaJNLCxstNHeUhuxM4qFIEgKudN/QBE1F5trRE0qTaJJGjnfI29hWfbX7LyZm1vegy9sYPbtzGffzOy8m0mt3+97YunmCwIBJIAEkAASQAKoqjaaV6DRaFQeQq/X046gG6C/oL6G1kEXmdo0B/qlWR9sz/W8B9XyvqQpgrZAYwwNWwE1Gfx0QdMMfjZBkxwRNMb05j865mdCewzKMAy9B6C1guVXQc+YGjYPWgJNFSyP5Rawx7AP0lndE3QaFChA4rId0BMFOO0ycMpO8/8i1016+JTnpoVwZlLqbwTQPRokQ5txFBLWpxODg5PEfdOAsDvNOg4phNOMwQloLDT+Jb3qMKQkON0ycHSXGi5CSoMzWwYOx1rMJUjscLgWqy5AMgKHczU/SEh1U3C40x2DgFQn/ywDso18kE1IWXDYvuxNJMyyIB0aJjimAEUhrcQgdRggWYOjAmg9lkMpCilghpQEZ1kRTrT+G1yArlJDF0EvFCMpCdIb0F5FOPsSZqtlilSVyMH6Pwd9BV3LTVkUzChyTcXRLOA50CsFH+dBLzXhJBpHRpFjTIpGEnbZD4o+3oN+0/VnLjh5NurZM4R0AnTS202Zfle8/xvoCKgFeuvt5sm9KgFC+wN6rXH/D5I1kx8OBZAAEkACSAAJIAEkgMQE0DAAwpQFbng4XPJ+vO8saNxWhW2uxTBJ1qYFJ67Kj9ICtKhhyuQL6KDH+KuFKxGEcDoEB+0A6LiijxbBQWuSv7orgC7RW3sK2qP4jLRdFm1FP+9AnyJ/T5eEhPXHjCIm3K5wAXpEFboMuqAIp50AB7vHhmLDtkGnqGE6kLD+cxSFD7kA7Y9cTzDA+Vky4sOtNzqQovWfHNQYZAIOJ6SBDtJpcAIGONYh+RbhcE/JViD5QwrHGiSfEU58Ku8ahmMFks8Ix8j+HEVI3Rikti4kvwJwopCCGKSmLiS/InCMQfIrBMcIJJ8RTuAAHHZIRXd3RAvhWYeRBDhrnnuW9DLj9a9x7+4YFjhpkTSi4kD3vBie2ZovWD48L7bD0PBxWpEX7S5LNO1bPy92U/GeM5Qy0bXHlKMybkW72DbT844x+Wkx+dnkAnTL09+whHnou0wNu+OpJ9yS4NzmmsUqbVmzWE3+wZK9dIcAEkBiAkgACSC79l+AAQC8IDsQnBO6IwAAAABJRU5ErkJggg=="></div></td><td></td></tr></tbody></table></div></div></div><div class="leaflet-bottom leaflet-left"><div class="leaflet-control-scale leaflet-control"><div class="leaflet-control-scale-line" style="width: 84px;">200 km</div><div class="leaflet-control-scale-line" style="width: 67px;">100 mi</div></div></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><div id="attr"><img src="https://apis.mapmyindia.com/map_v3/v1.3/../mmilogo.png" style="width:100px !important"><br><span>Map data ©2020 <a href="https://maps.mapmyindia.com" target="blank" style="color:#333">MapmyIndia</a><a style="padding-left:5px;cursor:pointer;color:#ed1c24" href="https://maps.mapmyindia.com/corona" target="_blank"><b>⨶ Live Corona Guide</b></a> | <a style="cursor:pointer;color:#333" onclick="var url='https://maps.mapmyindia.com/report@'+btoa(map_o[0].getCenter().lat)+','+btoa(map_o[0].getCenter().lng)+','+btoa(map_o[0].getZoom());window.open(url);" target="_blank">Report</a></span></div> </div></div></div><div class="m_ctr0"><div class="map-control"><ul class="expand-map-control"><li style="border-bottom: 1px solid #9e8d8d;"><a alt="Zoom In" title="Zoom In" class="map-zoom-in" onclick="map_o[0].zoomIn();return false;">+</a></li><li style="border-bottom: 5px solid transparent"><a alt="Zoom Out" title="Zoom Out" class="map-zoom-out" onclick="map_o[0].zoomOut()">-</a></li><li onclick="MapmyIndia.geo(map_o[0])" style="border-bottom: 1px solid #9e8d8d;"><a id="geo_location" alt="Current Location" title="Current Location" class="on"><i class="ti ti-target"></i></a></li><li class="layer-item-wrap" style="" alt="Map Layers" title="Map Layers" onclick="var dvs=document.getElementById('lyrs').style;if(dvs.display=='none') dvs.display='inline';else dvs.display='none';"><a><i class="ti ti-layers-alt"></i></a><ul class="ft-layer-link" id="lyrs" style="display:none;" onmouseleave="this.style.display='none'"><li class="layer_tab" id="m_t0" onclick="MapmyIndia.tls(map_o[0],0,'','https://{s}.mapmyindia.com')" style="display: none;"><a><span class="layer-item-img"><img src="https://maps.mapmyindia.com/images/mapview.jpg" style="width:50px !important"></span>Map</a></li><li class="layer_tab" id="reg_t0" onclick="MapmyIndia.tls(map_o[0],0,'reg','https://{s}.mapmyindia.com')"><a><span class="layer-item-img"><img src="https://apis.mapmyindia.com/map_v3/v1.3//regional.png" style="width:50px !important"></span>Regional</a></li><li class="layer_tab" id="h_t0" onclick=" MapmyIndia.tls(map_o[0],0,'h','https://{s}.mapmyindia.com')"><a><span class="layer-item-img"><img src="https://maps.mapmyindia.com/images/hybridview.jpg" style="width:50px !important;"></span>Satellite</a></li><li id="t_t0" onclick=" MapmyIndia.tr(map_o[0],0)"><a><span class="layer-item-img"><img src="https://maps.mapmyindia.com/images/traffic.png" style="width:50px !important;"></span><span id="tr_t0">Traffic</span></a></li></ul></li></ul></div></div></div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+<style> html, body, #map {margin: 0;padding: 0;width: 100%;height: 900px;} </style>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+
+<script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart','bar']});
+      google.charts.setOnLoadCallback(drawChart1);
+
+      function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+    		['Region','Idea', 'PoC', 'Prototype'],
+			['Central/CRO', 641, 259, 565],['Eastern/ERO', 892, 636, 1207],['North-West/NWRO', 816, 639, 709],['Northern/NRO', 639, 411, 584],['South-Central/SCRO', 1302, 660, 1056],['South-West/SWRO', 1625, 861, 1481],['Southern/SRO', 4966, 2572, 3128],['Western/WRO', 1700, 1202, 1243], 
+        ]);
+
+        var options = {
+			height: 500,
+          chart: {
+            title: 'Idea,PoC and Prototype Zone Wise',
+            subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+          },
+		  
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('regionCount'));
+		chart.draw(data, options);
+        
+      }
+    </script>    
+    <script src="https://apis.mapmyindia.com/advancedmaps/v1/qufwm7te971qzm2fba156vhlhnrjym71/map_load?v=1.3"></script>
+    <script type="text/javascript">
+    	 var map=new MapmyIndia.Map("map",{ center:[20.5937, 78.9629], zoomControl: true, hybrid:true, search:true, location:true,zoom:5}); 
+var LatLng = [
+['<b>Andhra Pradesh</b> <br/> Idea - 725<br/> PoC - 351<br/> Prototype - 719', 15.9129, 79.74],['<b>Arunachal Pradesh</b> <br/> Idea - 4<br/> PoC - 3<br/> Prototype - 0', 15.9129, 79.74],['<b>Assam</b> <br/> Idea - 54<br/> PoC - 17<br/> Prototype - 30', 26.2006, 92.9376],['<b>Bihar</b> <br/> Idea - 30<br/> PoC - 34<br/> Prototype - 25', 26.2006, 92.9376],['<b>Chandigarh</b> <br/> Idea - 29<br/> PoC - 26<br/> Prototype - 61', 30.7333, 76.7794],['<b>Chhattisgarh</b> <br/> Idea - 29<br/> PoC - 20<br/> Prototype - 142', 21.2787, 81.8661],['<b>Delhi</b> <br/> Idea - 246<br/> PoC - 241<br/> Prototype - 180', 28.7041, 77.1025],['<b>Goa</b> <br/> Idea - 17<br/> PoC - 21<br/> Prototype - 139', 15.2993, 74.124],['<b>Gujarat</b> <br/> Idea - 307<br/> PoC - 115<br/> Prototype - 302', 22.2587, 71.1924],['<b>Haryana</b> <br/> Idea - 75<br/> PoC - 61<br/> Prototype - 97', 29.0588, 76.0856],['<b>Himachal Pradesh</b> <br/> Idea - 32<br/> PoC - 24<br/> Prototype - 98', 31.1048, 77.1734],['<b>Jammu and Kashmir</b> <br/> Idea - 71<br/> PoC - 50<br/> Prototype - 114', 33.7782, 76.5762],['<b>Jharkhand</b> <br/> Idea - 121<br/> PoC - 46<br/> Prototype - 93', 23.6102, 85.2799],['<b>Karnataka</b> <br/> Idea - 1352<br/> PoC - 729<br/> Prototype - 747', 15.3173, 75.7139],['<b>Kerala</b> <br/> Idea - 273<br/> PoC - 132<br/> Prototype - 734', 10.8505, 76.2711],['<b>Madhya Pradesh</b> <br/> Idea - 305<br/> PoC - 124<br/> Prototype - 121', 22.9734, 78.6569],['<b>Maharashtra</b> <br/> Idea - 1683<br/> PoC - 1181<br/> Prototype - 1104', 19.7515, 75.7139],['<b>Mizoram</b> <br/> Idea - 2<br/> PoC - 0<br/> Prototype - 0', 19.7515, 75.7139],['<b>Odisha</b> <br/> Idea - 235<br/> PoC - 222<br/> Prototype - 723', 20.9517, 85.0985],['<b>Puducherry</b> <br/> Idea - 179<br/> PoC - 72<br/> Prototype - 440', 11.9416, 79.8083],['<b>Punjab</b> <br/> Idea - 138<br/> PoC - 77<br/> Prototype - 32', 31.1471, 75.3412],['<b>Rajasthan</b> <br/> Idea - 225<br/> PoC - 160<br/> Prototype - 127', 31.1471, 75.3412],['<b>Sikkim</b> <br/> Idea - 36<br/> PoC - 49<br/> Prototype - 29', 31.1471, 75.3412],['<b>Tamil Nadu</b> <br/> Idea - 4787<br/> PoC - 2500<br/> Prototype - 2688', 11.1271, 78.6569],['<b>Telangana</b> <br/> Idea - 577<br/> PoC - 309<br/> Prototype - 337', 18.1124, 79.0193],['<b>Tripura</b> <br/> Idea - 43<br/> PoC - 11<br/> Prototype - 24', 18.1124, 79.0193],['<b>Uttar Pradesh</b> <br/> Idea - 584<br/> PoC - 368<br/> Prototype - 556', 26.8467, 80.9462],['<b>Uttarakhand</b> <br/> Idea - 25<br/> PoC - 9<br/> Prototype - 3', 26.8467, 80.9462],['<b>West Bengal</b> <br/> Idea - 397<br/> PoC - 288<br/> Prototype - 308', 22.9868, 87.855],];
+
+        /*iterate on size of latitiude longitude set*/
+        for (var i = 0; i < LatLng.length; i++) {
+			
+		var markerIcon = L.icon({
+        iconUrl: 'https://maps.mapmyindia.com/images/3.png',
+		iconSize: [30, 30],
+        popupAnchor: [-3, -15]
+		});	
+        var marker1 =  new L.marker([LatLng[i][1],LatLng[i][2]],{icon: markerIcon})
+               .bindPopup(LatLng[i][0])
+                .addTo(map);
+				
+		let isClicked = false;
+
+		marker1.on({
+			mouseover: function() {
+				if(!isClicked) {
+					this.openPopup()
+				}
+			},
+			mouseout: function() { 
+				if(!isClicked) {
+					this.closePopup()
+				}
+			},
+			click: function() {
+				isClicked = true
+				this.openPopup()
+			}
+		});		
+			
+        }
+		
+		
+
+
+    </script>
+
+    <!-- footer -->
+
+
+    <footer>
+        <div class="footer">
+           <div class="container">
+              <div>
+                 <div class="row">
+                    <div class="col-md-3">
+                       <div class="boxfooter">
+                          <h3>QUICK LINKS </h3>
+
+                          <div>
+                             <ul >
+                             <li id="menu-item-236"><a href="mic_home.php">Home</a></li>
+                             <li id="menu-item-237" ><a href="iic.php">Innovation Council</a></li>
+                             <li id="menu-item-238"  ><a href="sih.php">Smart India Hackathon</a></li>
+                             <li id="menu-item-238"  ><a href="https://ariia.gov.in">ARIIA</a></li>
+                             </ul>
+                          </div>
+                       </div>
+
+
+
+                    </div>
+
+                    <!-- releated link -->
+                    <div class="col-md-3">
+
+                       <div class="boxfooter">
+           
+                          <h3>RELATED LINKS </h3>
+           
+           
+           
+                          <ul>
+           
+           
+           
+                             <li><a target="_blank" href="https://www.aicte-india.org">All India Council for Technical Education</a></li>
+           
+                             <li><a target="_blank" href="https://mhrd.gov.in">Ministry of Human Resource Development</a></li>
+           
+                          </ul>
+           
+                       </div>
+           
+                 </div>
+
+                 <!--social media links  -->
+                 <div class="col-md-3">
+
+                    <div class="boxfooter">
+        
+                       <h3>SOCIAL MEDIA LINKS </h3>
+        
+        
+        
+                       <ul>
+        
+                          <li> <span><a  target="_blank" href="https://twitter.com/mhrd_innovation">Twitter</a></span></li>           
+        
+                          <li> <span><a  target="_blank" href="https://www.facebook.com/mhrdInnovation/">Facebook</a></span></li>
+        
+                          <li> <span><a  target="_blank" href="https://www.youtube.com/mhrdinnovationcell">Youtube</a> </span></li>
+        
+                           <li><span><a  target="_blank" href="https://www.instagram.com/mhrd.innovationcell/">Instagram</a> </span></li>
+        
+                       </ul>
+        
+                    </div>
+        
+              </div>
+
+              <!-- Contact -->
+              <div class="col-md-3">
+
+                 <div class="boxfooter">
+     
+                    <h3>CONTACT </h3>
+                    
+     
+     
+     
+                    <ul>
+     
+                        <li><a href="#">MHRD's Innovation Cell</a></li>
+                       <li><a href="#">All India Council for Technical Education (AICTE), Nelson Mandela Marg, VasantKunj, New Delhi-110070.</a></li>
+                       <li><a href="tel:011 29581316">011-29581316</a></li>
+                       <li><a href="mailto:mic-mhrd@gov.in">mic-mhrd@gov.in</a></li>
+     
+                    </ul>
+     
+                 </div>
+     
+           </div>
+                 </div>
+
+                 
+              </div>
+
+               
+
+              
+              
+           </div>
+            
+        </div>
+     </footer>
+
+<!-- <section class="footer">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-3">
+
+				<div class="boxfooter">
+
+					<h3>QUICK LINKS </h3>
+
+
+
+			<div class="menu-quick-link-container"><ul id="menu-quick-link" class="menu"><li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-236"><a href="mic_home.php">Home</a></li>
+<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="iic.php">Innovation Council</a></li>
+<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="sih.php">Smart India Hackathon</a></li>
+<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="https://ariia.gov.in">ARIIA</a></li>
+</ul></div>
+				</div>
+
+		</div>
+
+
+
+
+
+					<div class="col-md-3">
+
+				<div class="boxfooter">
+
+					<h3>RELATED LINKS </h3>
+
+
+
+					<ul>
+
+
+
+						<li><a target="_blank" href="https://www.aicte-india.org">All India Council for Technical Education</a></li>
+
+						<li><a target="_blank" href="https://mhrd.gov.in">Ministry of Human Resource Development</a></li>
+
+					</ul>
+
+				</div>
+
+		</div>
+
+
+
+
+
+					<div class="col-md-3">
+
+				<div class="boxfooter">
+
+					<h3>SOCIAL MEDIA LINKS </h3>
+
+
+
+					<ul>
+
+						<li> <span><a target="_blank" href="https://twitter.com/mhrd_innovation">Twitter</a></span></li>           
+
+						<li> <span><a target="_blank" href="https://www.facebook.com/mhrdInnovation/">Facebook</a></span></li>
+
+						<li> <span><a target="_blank" href="https://www.youtube.com/mhrdinnovationcell">Youtube</a> </span></li>
+
+            <li> <span><a target="_blank" href="https://www.instagram.com/mhrd.innovationcell/">Instagram</a> </span></li>
+
+					</ul>
+
+				</div>
+
+		</div>
+
+		<div class="col-md-3">
+
+				<div class="boxfooter">
+
+					<h3>CONTACT </h3>
+					
+
+
+
+					<ul>
+
+					     <li><i class="fa fa-list-alt"></i> <span><a href="#">MHRD's Innovation Cell</a></span></li>
+						<li><i class="fa fa-location-arrow"></i><span><a href="#">All India Council for Technical Education (AICTE), Nelson Mandela Marg, VasantKunj, New Delhi-110070.</a></span></li>
+						<li><i class="fa fa-phone"></i><span><a href="tel:011 29581316">011-29581316</a></span></li>
+						<li><i class="fa fa-envelope-o"></i> <span><a href="mailto:mic-mhrd@gov.in">mic-mhrd@gov.in</a></span></li>
+
+					</ul>
+
+				</div>
+
+		</div>
+
+
+
+	</div>
+
+</div>
+
+</section> -->
+
+
+<!-- footer end -->
+
+
+<!--modal-->
+
+<!-- The Modal -->
+
+  <div class="modal fade" id="myModal">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+      <div class="modal-content">
+
+      
+
+        <!-- Modal Header -->
+
+        <div class="modal-header">
+
+          <h4 class="modal-title">Video Heading</h4>
+
+          <button type="button" class="close" data-dismiss="modal">×</button>
+
+        </div>
+
+        
+
+        <!-- Modal body -->
+
+        <div class="modal-body">
+
+        <iframe width="100%" height="300px;" src="https://www.youtube.com/embed/Ycvp2e1qg18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+        </div>
+
+        
+
+        <!-- Modal footer -->
+
+        <div class="modal-footer">
+
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+
+        
+
+      </div>
+
+    </div>
+
+  </div>
+
+<!--end of modal-->
+
+
+
+<script src="wp_custom/js/jquery-3.3.1.min.js"></script>
+
+<script src="wp_custom/js/popper.min.js"></script>
+
+<script src="wp_custom/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="wp_custom/js/lightbox-plus-jquery.min.js"></script>
+<script src="wp_custom/js/slick.js"></script>
+
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+	<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+
+<script>
+
+
+$("#registrationForm").validate({
+	rules: {
+						
+			type:
+			{
+				required: true
+			},
+			Participate: 
+			{
+				required: true,				
+			},
+			
+			bootcamp_institute_name:
+			{
+				required: true,
+			},
+			
+			orientation_name:
+			{
+				required: true,
+			},
+			email:
+			{
+				required: true,
+			},
+			Phone_no:
+			{
+				required: true
+			},
+			designation:
+			{
+				required: true,
+			},
+			comment:
+			{
+				required: true,
+			},
+			upload_photo:
+			{
+				required: true,
+			},
+			agree:
+			{
+				required: true
+			},
+	},
+		messages: {
+			
+			type: {required:'Please select type.'},
+			Participate: {required: 'Please select Participate.'},
+			bootcamp_institute_name: {required: 'Please select institute name.'},
+			orientation_name: {required: 'Please select name.'},
+			email: {required: 'Please select email.'},
+			Phone_no: {required: 'Please select Phone no.'},
+			designation: {required: 'Please enter email'},
+			comment: {required: 'Please enter Phone no.'},
+			upload_photo: {required: 'Please upload photo'},
+			agree: {required: 'Please accept agree'},
+			
+	},
+		
+		highlight: function(element) {
+			$(element).closest('.form-group').addClass('has-error');
+		},
+		unhighlight: function(element) {
+			$(element).closest('.form-group').removeClass('has-error');
+		},
+		errorElement: 'span',
+		errorClass: 'help-block',
+		errorPlacement: function(error, element) 
+		{
+			if(element.parent('.input-group').length) 
+				{
+				error.insertAfter(element.parent());
+				} 
+			else 
+				{
+				error.insertAfter(element);
+				}
+		}
+});
+		//Proceed Button
+$("#registrationForm").on('submit',(function(e) {
+	event.preventDefault();
+	var response = grecaptcha.getResponse();
+		
+		if(response.length == 0){
+			alert("Please check captcha its mandatory.");
+		} else{
+	
+		if($("#registrationForm").valid())
+{
+			$.ajax({
+			type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
+			url         : 'add_ia_event_new.php', // the url where we want to POST
+			data:  new FormData(this),
+			contentType: false,
+			cache: false,
+			processData:false,
+			success:function(data) {
+				var reply = data.replace(/\s+/, "");
+				if(reply==1){
+					alert('Created Successfully.');
+					location.reload();
+				}else if(reply==2){
+					alert('This Email already exist.');
+				}else if(reply==3){
+					alert('This mobile number already exist.');
+				}else if(reply==4){
+					alert('Expire.');
+					location.reload(); 
+				}else if(reply==5){
+					alert('Please upload photograrph JPG and PNG format Only');
+					location.reload(); 
+				}
+				else{
+				alert(data);
+				location.reload(); 
+				}
+				
+			}
+		});		
+		event.preventDefault();
+}else{
+	alert('Please fill all the fields.');
+}
+}
+		
+	}));
+</script>
+<script>
+
+$('.multiple-items2').slick({
+
+  
+
+  infinite: true,
+
+	autoplay: true,
+
+  speed: 300,
+
+  slidesToShow: 3,
+
+  slidesToScroll: 1,
+
+  responsive: [
+
+    {
+
+      breakpoint: 1024,
+
+      settings: {
+
+        slidesToShow: 2,
+
+        slidesToScroll: 1,
+
+        infinite: true,
+
+        dots: true
+
+      }
+
+    },
+
+    {
+
+      breakpoint: 600,
+
+      settings: {
+
+        slidesToShow: 2,
+
+        slidesToScroll: 2
+
+      }
+
+    },
+
+    {
+
+      breakpoint: 481,
+
+      settings: {
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1
+
+      }
+
+    }
+
+    // You can unslick at a given breakpoint now by adding:
+
+    // settings: "unslick"
+
+    // instead of a settings object
+
+  ]
+
+});
+
+	</script>
+
+
+  <script>
+
+$('.multiple-items1').slick({
+
+  
+
+  infinite: true,
+
+  autoplay: true,
+
+  speed: 300,
+
+  slidesToShow: 3,
+
+  slidesToScroll: 1,
+
+  responsive: [
+
+    {
+
+      breakpoint: 1024,
+
+      settings: {
+
+        slidesToShow: 2,
+
+        slidesToScroll: 1,
+
+        infinite: true,
+
+        dots: true
+
+      }
+
+    },
+
+    {
+
+      breakpoint: 600,
+
+      settings: {
+
+        slidesToShow: 2,
+
+        slidesToScroll: 2
+
+      }
+
+    },
+
+    {
+
+      breakpoint: 481,
+
+      settings: {
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1
+
+      }
+
+    }
+
+    // You can unslick at a given breakpoint now by adding:
+
+    // settings: "unslick"
+
+    // instead of a settings object
+
+  ]
+
+});
+
+  </script>
+
+
+
+	<script>
+
+		$('.single-item').slick({
+
+			autoPlay: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+
+		});
+
+	</script>
+
+
+
+
+
+	<script type="text/javascript">
+
+$('.bannerslider').slick({
+
+  dots: true,
+
+  infinite: true,
+
+  speed: 1500,
+
+  autoplay:true,
+
+  cssEase: 'linear'
+
+});
+
+</script>
+
+<script type="text/javascript">
+  $('#show').on('click', function () {
+    $('.center').show();
+    $(this).hide();
+})
+
+$('#close').on('click', function () {
+    $('.center').hide();
+    $('#show').show();
+})
+</script>
+
+<button id="responsive-menu-button" class="responsive-menu-button responsive-menu-boring
+         responsive-menu-accessible" type="button" aria-label="Menu">
+
+    
+    <span class="responsive-menu-box">
+        <span class="responsive-menu-inner"></span>
+    </span>
+
+    </button>
+	<div id="responsive-menu-container" class="slide-left">
+    <div id="responsive-menu-wrapper">
+	<ul id="responsive-menu" class="">
+	<li id="responsive-menu-item-249" class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children responsive-menu-item responsive-menu-item-current-ancestor responsive-menu-item-current-parent responsive-menu-item-has-children">
+	<a href="#" class="responsive-menu-item-link">About Us<div class="responsive-menu-subarrow">▼</div></a>
+	<ul class="responsive-menu-submenu responsive-menu-submenu-depth-1">
+	<li id="responsive-menu-item-78" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home responsive-menu-item">
+	<a href="index.php" class="responsive-menu-item-link">Home</a></li>
+	<li id="responsive-menu-item-193" class=" menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-191 current_page_item responsive-menu-item responsive-menu-current-item">
+	<a href="About_MHRDnnovation.php" class="responsive-menu-item-link">About MHRD’S Innovation Cell</a></li>
+	<li id="responsive-menu-item-194" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="About_Message.php" class="responsive-menu-item-link">Message from CIO</a></li>
+	<li id="responsive-menu-item-627" class=" menu-item menu-item-type-custom menu-item-object-custom responsive-menu-item">
+	<a href="https://mic.gov.in/brochure/index.html" class="responsive-menu-item-link">MIC Brochure</a></li>
+	<li id="responsive-menu-item-243" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="leadership_team.php" class="responsive-menu-item-link">Leadership Team</a></li>
+	<li id="responsive-menu-item-407" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="contact_us.php" class="responsive-menu-item-link">Contact Us</a></li>
+	</ul>
+	</li>
+	<li id="responsive-menu-item-162" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children responsive-menu-item responsive-menu-item-has-children">
+	<a href="#" class="responsive-menu-item-link">Innovation Council<div class="responsive-menu-subarrow">▼</div></a>
+	<ul class="responsive-menu-submenu responsive-menu-submenu-depth-1">
+	<li id="responsive-menu-item-468" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="iic.php" class="responsive-menu-item-link">Institution’s Innovation Council</a></li>
+	<li id="responsive-menu-item-161" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="Why_heis.php" class="responsive-menu-item-link">Why HEIs should Join ICs Network?</a></li>
+	<li id="responsive-menu-item-622" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="iic_advisory_committee.php" class="responsive-menu-item-link">IIC Advisory Committee</a></li>
+	<li id="responsive-menu-item-638" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="innovationcontest.php" class="responsive-menu-item-link">IIC National Innovation Contest</a></li>
+	<li id="responsive-menu-item-628" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="innovation_ambassador.php" class="responsive-menu-item-link">IIC Innovation Ambassador Training Series</a></li>
+	<li id="responsive-menu-item-645" class=" menu-item menu-item-type-custom menu-item-object-custom responsive-menu-item">
+	<a href="wp_custom/wp_images/Recommendation of Impact Lecture Series.pdf" class="responsive-menu-item-link">Impact Lecture-Recommended Institutes</a>
+	</li>
+	<li id="responsive-menu-item-265" class=" menu-item menu-item-type-custom menu-item-object-custom responsive-menu-item">
+	<a href="https://mic.gov.in/assets/doc/Prescribed%20Annual%20Calendar%20Activities%20for%20IICs%20-%202019-20%20(1).pdf" class="responsive-menu-item-link">IIC Calendar</a></li>
+	<li id="responsive-menu-item-557" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="iic_rating_2018_19.php" class="responsive-menu-item-link">star Rating 2018-19</a>
+	</li>
+	<li id="responsive-menu-item-621" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="iic_team.php" class="responsive-menu-item-link">Implementation Team</a></li>
+	</ul>
+	</li>
+	<li id="responsive-menu-item-74" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="InnovationRanking.php" class="responsive-menu-item-link">Innovation ranking</a></li>
+	<li id="responsive-menu-item-299" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children responsive-menu-item responsive-menu-item-has-children">
+	<a href="#" class="responsive-menu-item-link">Hackathon<div class="responsive-menu-subarrow">▼</div></a>
+	<ul class="responsive-menu-submenu responsive-menu-submenu-depth-1">
+	<li id="responsive-menu-item-300" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="sih.php" class="responsive-menu-item-link">Smart India Hackathon</a></li>
+	<li id="responsive-menu-item-301" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="singapore_india_hackathon_2019.php" class="responsive-menu-item-link">Singapore India Hackathon</a>
+	</li>
+	</ul>
+	</li>
+	<li id="responsive-menu-item-543" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children responsive-menu-item responsive-menu-item-has-children">
+	<a href="startup_policy.php" class="responsive-menu-item-link">Start Up Policy<div class="responsive-menu-subarrow">▼</div></a>
+	<ul class="responsive-menu-submenu responsive-menu-submenu-depth-1">
+	<li id="responsive-menu-item-545" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="startup_policy.php" class="responsive-menu-item-link">Innovation and Startup Policy 2019</a></li>
+	<li id="responsive-menu-item-545" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="implementation_plan.php" class="responsive-menu-item-link">Implementation Plan</a></li>
+	<li id="responsive-menu-item-546" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="startup_policy_committee.php" class="responsive-menu-item-link">Start Up Policy Committee 2019</a></li>
+	<li id="responsive-menu-item-544" class=" menu-item menu-item-type-custom menu-item-object-custom responsive-menu-item">
+	<a href="https://mic.gov.in/assets/doc/startup_policy_2019.pdf" class="responsive-menu-item-link">Download Startup Policy 2019</a>
+	</li>
+	<li id="responsive-menu-item-545" class=" menu-item menu-item-type-custom menu-item-object-custom responsive-menu-item">
+	<a href="https://mic.gov.in/startup_application.php" class="responsive-menu-item-link">Join the Campaign </a>
+	</li>
+	<li id="responsive-menu-item-546" class=" menu-item menu-item-type-custom menu-item-object-custom responsive-menu-item">
+	<a href="https://mic.gov.in/nominate_faculty_for_nisp.php" class="responsive-menu-item-link">Nominate Faculty for NISP</a>
+	</li>
+	</ul>
+	</li>
+	
+	<li id="responsive-menu-item-303" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children responsive-menu-item responsive-menu-item-has-children">
+	<a href="#" class="responsive-menu-item-link">Leadership Talk<div class="responsive-menu-subarrow">▼</div></a>
+	<ul class="responsive-menu-submenu responsive-menu-submenu-depth-1">
+	<li id="responsive-menu-item-3031" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="iflts_upcoming.php" class="responsive-menu-item-link">Upcoming Episodes</a></li>
+	<li id="responsive-menu-item-3030" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="iflts_past.php" class="responsive-menu-item-link">Past Episodes</a></li>
+	
+	</ul>
+	</li>
+	<li id="responsive-menu-item-304" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="micoutcome.php" class="responsive-menu-item-link">MIC Outcome</a>
+	</li>
+	<li id="responsive-menu-item-305" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="https://mic.gov.in/samadhan/index.php" class="responsive-menu-item-link">Samadhan</a>
+	</li>
+	<li id="responsive-menu-item-175" class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children responsive-menu-item responsive-menu-item-has-children">
+	<a href="#" class="responsive-menu-item-link">Gallery<div class="responsive-menu-subarrow">▼</div></a>
+	<ul class="responsive-menu-submenu responsive-menu-submenu-depth-1">
+	<li id="responsive-menu-item-121" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="gallery_video.php" class="responsive-menu-item-link">Gallery Video</a></li>
+	<li id="responsive-menu-item-160" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="gallery_photo.php" class="responsive-menu-item-link">Gallery Photo</a></li>
+	<li id="responsive-menu-item-306" class=" menu-item menu-item-type-post_type menu-item-object-page responsive-menu-item">
+	<a href="news.php" class="responsive-menu-item-link">News &amp; Events</a></li>
+	</ul>
+	</li>
+	</ul>                                                
+	
+	<div id="responsive-menu-search-box">
+    <form action="" class="responsive-menu-search-form" role="search">
+        <input type="search" name="s" title="Search" placeholder="Search" class="responsive-menu-search-box">
+    </form>
+</div>                                                
+<div id="responsive-menu-additional-content"></div>
+                        </div>
+</div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        
+		var dataTable = new google.visualization.DataTable();
+        dataTable.addColumn('string', 'Zone');
+        dataTable.addColumn('number', 'Total');
+        // A column for custom tooltip content
+        dataTable.addColumn({type: 'string', role: 'tooltip'});
+        dataTable.addRows([
+          ['CRO', 274,'CRO Institutes No. - 274'],
+		  ['NRO',  287,'NRO Institutes No. - 287'],
+          ['ERO', 269,'ERO Institutes No. - 269'],
+          ['NWRO',  451,'NWRO Institutes No. - 451'],
+          ['SRO',  732,'SRO Institutes No. - 732'],
+          ['SWRO',  382,'SWRO Institutes No. - 382'],
+          ['SCRO', 453,'SCRO Institutes No. - 453'],
+          ['WRO', 575,'WRO Institutes No. - 575']	
+
+        ]);
+
+      var options = {
+        pieSliceText: 'label',
+		pieHole: 0.4,
+		  colors: ['#ccc','#ccc','#6f2da8','#6f2da8','#6f2da8','#6f2da8','#6f2da8','#ccc'],
+		slices: {  1: {offset: 0.1},
+                    7: {offset: 0.1},
+                    0: {offset: 0.1},
+          },
+        // title: 'Swiss Language Use (100 degree rotation)',
+        pieStartAngle: 100,
+		legend: { position: 'none' },
+		tooltip: {isHtml: true},
+          legend: 'none'
+      };
+
+        var chart = new google.visualization.PieChart(document.getElementById('zonalDist'));
+        chart.draw(dataTable, options);
+      }
+</script>   
+
+<script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart','bar']});
+      google.charts.setOnLoadCallback(drawChart1);
+
+      function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+            ['Zone','Institute Count', { role: 'style' }, { role: 'annotation' }],
+             
+        ]);
+
+
+        var options = {
+            height: 400,
+            title: 'Institute Zone Wise',
+			bar: {groupWidth: "75%"},
+            legend: {position: 'none'},
+    
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('instDist'));
+        chart.draw(data, options);
+        
+      }
+       </script>
+	    <script src="js/jQuery-plugin-progressbar.js" type="text/javascript"></script>
+     <script type="text/javascript">
+   
+ $(".progress-bar1").loading();
+            
+       
+    
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-168661400-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168661400-3');
+</script>
+
+
+
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>
